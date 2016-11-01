@@ -1,4 +1,5 @@
 #!/bin/bash
+# 21824073 Yan Ji
 # The code of the second question
 # Execute it, no parameter needs to be provided
 
@@ -85,4 +86,5 @@ function drawChart() {
   <h4 style="margin:0 auto;">A group is a sets of data that are divided by 5 minutes interval start from the first data point: 25/Sep/2016 03:42:25
 </html>' >> result2.html
 
+# clean temp files
 rm *.tmp
